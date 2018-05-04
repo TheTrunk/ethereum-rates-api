@@ -1,5 +1,5 @@
-# hush-rates-api
-A Restful API that displays current HUSH exchange Rates
+# ethereum-rates-api
+A Restful API that displays current ethereum exchange Rates
 
 ## Requirements
 Requires node version 6.0 and above
@@ -22,10 +22,10 @@ Example: http://localhost:3333/rates
 ## Docker
 To build the docker image run with command:
 ```
-docker build -t hush/hush-rates-api .
+docker build -t ethereum/ethereum-rates-api .
 ```
 
 Then run the docker image with command:
 ```
-docker run -d --restart always -p 3333:3333 --name hush-rates-api hush/hush-rates-api
+docker run -d --restart always -p 3333:3333 --name ethereum-rates-api ethereum/ethereum-rates-api
 ```
